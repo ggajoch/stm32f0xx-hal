@@ -55,8 +55,8 @@ use crate::{
     rcc::Rcc,
     stm32::{
         adc::{
-            cfgr1::{ALIGNW, RESW},
-            smpr::SMPW,
+            cfgr1::{ALIGN_W, RES_W},
+            smpr::SMP_W,
         },
         ADC,
     },
